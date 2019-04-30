@@ -11,7 +11,7 @@ class prankCall{
 	}
 	private function correct($no){
 		$cek = substr($no,0,2);
-		if($cek=="08"){
+		if($cek=="1"){
 			$no = "60".substr($no,1);
 		}
 		return $no;
