@@ -19,7 +19,7 @@ class prankCall{
 	private function ekse(){
 		$no = $this->correct($this->number);
 		$rand = rand(0123456,9999999);
-		$rands = $this->randStr(12);
+		$rands = $this->randStr(10);
 		$post = "method=CALL&countryCode=id&phoneNumber=$no&templateID=pax_android_production";
 		$h[] = "x-request-id: ebf61bc3-8092-4924-bf45-$rands";
 		$h[] = "Accept-Language: in-ID;q=1.0, en-us;q=0.9, en;q=0.8";
