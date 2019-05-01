@@ -1,9 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# Coded by MRram0s
+# Coded by MRram0s@b3rn
 """
-ngapai bosq? mau recode?
-tinggal pake aja susah amat sih?!
+bodo natang ni..
 """
 
 try:
@@ -19,22 +18,22 @@ r=('\033[1;31m')
 g=('\033[1;32m')
 w=('\033[1;37m')
 print("""%s
-			SPAM CALL MASSAL v.3.0%s
+		         B3RN SPAM CALL%s
  ,_     _‚
- |\\\___//|	%sAuthor: KANG-NEWBIE%s
- |=6   6=|	%sContact: https://t.me/kang_nuubi%s
- \=._Y_.=/	%sGithub: https://github.com/KANG-NEWBIE%s
-  )  `  (    ,	%sTEAM: CRABS (t.me/CRABS_ID)%s
+ |\\\___//|	%sAuthor: Mr.B3rN%s
+ |=6   6=|	%sContact: https://xhamster.com%s
+ \=._Y_.=/	%sGithub: https://github.com/MRram0s%s
+  )  `  (    ,	%sTEAM: TOK MUNG SQUARE%s
  /       \  ((
  |       |   ))
-/| |   | |\_//	%sMASUKAN NOMOR DENGAN "62" (EX: 628XXXXXX)%s
+/| |   | |\_//	%sMASUKAN NOMOR DENGAN "60" (EX: 601XXXXXXX)%s
 \| |._.| |/-’
  '"'   '"'
-<NOTE> Jika terjadi ERROR atau BUG dan lain-lain, silahkan hubungi saya"""%(c,r,g,r,g,r,g,r,g,r,w,r))
-print("%s[*] Klik ENTER untuk melewati step%s"%(g,g))
-no1 = input("[?] NUM TARGET 1 => %s"%(w))
-no2 = input("%s[?] NUM TARGET 2 => %s"%(g,w))
-no3 = input("%s[?] NUM TARGET 3 => %s"%(g,w))
+<NOTE> Jika terjadi ERROR atau BUG dan lain-lain, silalah hubungi bapak saya"""%(c,r,g,r,g,r,g,r,g,r,w,r))
+print("%s[*] Klik ENTER untuk seterusnya step%s"%(g,g))
+no1 = input("[?] NO TARGET 1 => %s"%(w))
+no2 = input("%s[?] NO TARGET 2 => %s"%(g,w))
+no3 = input("%s[?] NO TARGET 3 => %s"%(g,w))
 jlmh=int(input("%s[?] JUMLAH SPAM => %s"%(g,w)))
 dt1={'method':'CALL','countryCode':'id','phoneNumber':no1,'templateID':'pax_android_production'}
 dt2={'method':'CALL','countryCode':'id','phoneNumber':no2,'templateID':'pax_android_production'}
@@ -64,4 +63,4 @@ try:
 		print("="*30)
 		time.sleep(1)
 except KeyboardInterrupt:
-	print("%ssampai jumpa gan..."%(c))
+	print("%sterima kasih bossku..."%(c))
