@@ -26,7 +26,7 @@ print("""%s
   )  `  (    ,	%sTEAM: TOK MUNG SQUARE%s
  /       \  ((
  |       |   ))
-/| |   | |\_//	%sMASUKAN NOMOR DENGAN "60" (EX: 601XXXXXXX)%s
+/| |   | |\_//	%sMASUKKAN NOMBOR DENGAN "60" (EX: 601XXXXXXX)%s
 \| |._.| |/-’
  '"'   '"'
 <NOTE> Jika terjadi ERROR atau BUG dan lain-lain, silalah hubungi bapak saya"""%(c,r,g,r,g,r,g,r,g,r,w,r))
