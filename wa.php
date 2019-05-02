@@ -2,7 +2,7 @@
 echo "COPYRIGHT : SGB TEAM\n\n";
 echo "Nomor Target?\nInput : ";
 $nomer = trim(fgets(STDIN));
-if(strlen($nomer)==9){
+if(strlen($nomer)==8){
 	$nomer = str_replace("60".$nomer);
 }elseif(strlen($nomer)>10){
 	$nomer = str_replace("60",$nomer);
