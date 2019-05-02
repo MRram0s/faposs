@@ -5,8 +5,6 @@ $nomer = trim(fgets(STDIN));
 $ceku = substr($no,1,2);
 		if($ceku=="08"){
 			$nomer = "60".substr($nomer,1);
-		}
-		return $nomer;
 
 echo "Target: $nomer (y/n)";
 $cek = trim(fgets(STDIN));
