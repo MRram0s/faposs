@@ -3,9 +3,9 @@ echo "COPYRIGHT : SGB TEAM\n\n";
 echo "Nomor Target?\nInput : ";
 $nomer = trim(fgets(STDIN));
 if(strlen($nomer)==11){
-	$nomer = str_replace("0","60".$nomer);
+	$nomer = str_replace("1","60".$nomer);
 }elseif(strlen($nomer)>10){
-	$nomer = str_replace("60","0",$nomer);
+	$nomer = str_replace("60","1",$nomer);
 }
 echo "Target: $nomer (y/n)";
 $cek = trim(fgets(STDIN));
