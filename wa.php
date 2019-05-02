@@ -2,10 +2,11 @@
 echo "COPYRIGHT : SGB TEAM\n\n";
 echo "Nomor Target?\nInput : ";
 $nomer = trim(fgets(STDIN));
-if(strlen($nomer)==8){
-	$nomer = str_replace("60".$nomer);
-}elseif(strlen($nomer)>9){
-	$nomer = str_replace("60",$nomer);
+$ceku = substr($no,1,2);
+		if($ceku=="08"){
+			$nomer = "60".substr($nomer,1);
+		}
+		return $nomer;
 }
 echo "Target: $nomer (y/n)";
 $cek = trim(fgets(STDIN));
