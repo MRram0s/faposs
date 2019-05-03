@@ -59,7 +59,7 @@ try:
 		if str(idk) in str(r1.text):
 			print("[+] TARGET1 BERHASIL")
 		else:
-			print("[-]TARGET1""%GAGAL"%(o))
+			print("%[-] TARGET1 GAGAL"%(o))
 		if str(idk) in str(r2.text):
 			print("[+] TARGET2 BERHASIL")
 		else:
