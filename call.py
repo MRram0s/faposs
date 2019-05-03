@@ -23,7 +23,7 @@ print("""%s
 		         Mr.B3RN MULTI-SPAM CALL%s
  ,_     _‚
  |\\\___//|	%sAuthor: Mr.B3RN%s
- |=👁️   👁️=|	%sContactContact: https://xhamster.com%s
+ | =👁️  👁️=|	%sContactContact: https://xhamster.com%s
  \=._Y_.=/	%sGithub: https://github.com/MRram0s%s
   )  `  (    ,	%sTEAM: TOK MUNG SQUARE%s
  /       \  ((
