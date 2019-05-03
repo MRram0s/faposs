@@ -15,7 +15,7 @@ except ModuleNotFoundError:
 os.system('clear')
 c=('\033[1;36m')
 r=('\033[1;33m')
-k=('\033[42m')
+k=('\033[4;32m')
 o=('\033[1;31m')
 g=('\033[1;32m')
 w=('\033[1;37m')
