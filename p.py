@@ -30,9 +30,9 @@ print("""%s
  /       \  ((
  |       |   ))
 /| |   | |\_//	%sMASUKKAN NOMBOR DENGAN "60" (EX: 601XXXXXXX)%s
-%s\| |._.| |/-’
- '"'   '"'%s
-%s<NOTE> Kalu ERROR @ BUG dan lain-lain, silalah hubungi bapak saya.."""%(c,r,g,r,g,r,g,r,g,r,w,b,o))
+\| |._.| |/-’
+ '"'   '"'
+%s<NOTE> Kalu ERROR @ BUG dan lain-lain, silalah hubungi bapak saya.."""%(c,r,g,r,g,r,g,r,g,r,w,o))
 print("%s[*] Klik ENTER untuk step seterusnya%s"%(g,g))
 no1 = input("[?] NO.TARGET 1 => %s"%(w))
 no2 = input("%s[?] NO.TARGET 2 => %s"%(g,w))
