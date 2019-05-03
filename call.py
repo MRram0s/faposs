@@ -71,11 +71,11 @@ try:
 		if str(idk) in str(r4.text):
 			print("%s[+] TARGET4 BERHASIL"%(g))
 		else:
-			print("[-] TARGET4 GAGAL"%(o))
+			print("%s[-] TARGET4 GAGAL"%(o))
 		if str(idk) in str(r5.text):
-			print("%s[+] TARGET5 BERHASIL"%(g))
+			print("%s[+] TARGET5 ✔️"%(g))
 		else:
-			print("%s[-] TARGET5 GAGAL"%(o))
+			print("%s[-] TARGET5 ❌"%(o))
 		print("="*30)
 		time.sleep(1)
 except KeyboardInterrupt:
