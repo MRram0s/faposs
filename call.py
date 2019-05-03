@@ -45,7 +45,7 @@ dt5={'method':'CALL','countryCode':'id','phoneNumber':no5,'templateID':'pax_andr
 
 try:
 	print()
-	print("%s[-] RESULT:%s"%(r,w))
+	print("%s[-] RESULT:%s"%(r,g))
 	for i in range(jlmh):
 		print("[!] PLEASE WAIT...")
 		idk=("challengeID")
@@ -57,7 +57,7 @@ try:
 		if str(idk) in str(r1.text):
 			print("[+] TARGET1 BERHASIL")
 		else:
-			print("[-]'\033[1;48mTARGET1 GAGAL\033[1;m'")
+			print("[-]TARGET1 GAGAL")
 		if str(idk) in str(r2.text):
 			print("[+] TARGET2 BERHASIL")
 		else:
