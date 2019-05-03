@@ -15,6 +15,7 @@ except ModuleNotFoundError:
 os.system('clear')
 c=('\033[1;36m')
 r=('\033[1;33m')
+b=('\033[1;38m')
 o=('\033[1;31m')
 g=('\033[1;32m')
 w=('\033[1;37m')
@@ -29,9 +30,9 @@ print("""%s
  /       \  ((
  |       |   ))
 /| |   | |\_//	%sMASUKKAN NOMBOR DENGAN "60" (EX: 601XXXXXXX)%s
-\| |._.| |/-’
- '"'   '"'
-<NOTE> Kalu ERROR @ BUG dan lain-lain, silalah hubungi bapak saya.."""%(c,r,g,r,g,r,g,r,g,r,w,o))
+%s\| |._.| |/-’
+ '"'   '"'%s
+%s<NOTE> Kalu ERROR @ BUG dan lain-lain, silalah hubungi bapak saya.."""%(c,r,g,r,g,r,g,r,g,r,w,b,o))
 print("%s[*] Klik ENTER untuk step seterusnya%s"%(g,g))
 no1 = input("[?] NO.TARGET 1 => %s"%(w))
 no2 = input("%s[?] NO.TARGET 2 => %s"%(g,w))
