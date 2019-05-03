@@ -45,7 +45,7 @@ dt5={'method':'CALL','countryCode':'id','phoneNumber':no5,'templateID':'pax_andr
 
 try:
 	print()
-	print("%s[-] RESULT:%s"%(r,w,r))
+	print("%s[-] RESULT:%s"%(r,w))
 	for i in range(jlmh):
 		print("[!] PLEASE WAIT...")
 		idk=("challengeID")
