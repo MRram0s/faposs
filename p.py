@@ -33,14 +33,14 @@ print("""%s
 \| |._.| |/-’
  '"'   '"'
 """%(c,r,g,r,g,r,g,r,g,r,w,r))
-print("%s<NOTE> Kalu ERROR @ BUG dan lain-lain, silalah hubungi bapak saya.."%(k))
+print("%s<NOTE> Kalu ERROR @ BUG dan lain-lain, silalah hubungi bapak saya.."%(o))
 print("%s[*] Klik ENTER untuk step seterusnya%s"%(g,g))
 no1 = input("[?] NO.TARGET 1 => %s"%(w))
 no2 = input("%s[?] NO.TARGET 2 => %s"%(g,w))
 no3 = input("%s[?] NO.TARGET 3 => %s"%(g,w))
 no4 = input("%s[?] NO.TARGET 4 => %s"%(g,w))
 no5 = input("%s[?] NO.TARGET 5 => %s"%(g,w))
-jlmh=int(input("%s[?] JUMLAH SPAM => %s"%(g,w)))
+jlmh=int(input("%s[?] JUMLAH SPAM => %s"%(r,w)))
 dt1={'method':'CALL','countryCode':'id','phoneNumber':no1,'templateID':'pax_android_production'}
 dt2={'method':'CALL','countryCode':'id','phoneNumber':no2,'templateID':'pax_android_production'}
 dt3={'method':'CALL','countryCode':'id','phoneNumber':no3,'templateID':'pax_android_production'}
