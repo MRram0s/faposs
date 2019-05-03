@@ -20,7 +20,7 @@ g=('\033[1;32m')
 w=('\033[1;37m')
 print("""%s
 
-		       ⚔️  MR.B3RN MULTI-SPAM CALL ⚔️%s
+		     ⚔️  MR.B3RN MULTI-SPAM CALL ⚔️%s
  ,_     _‚
  |\\\___//|	%sAuthor: MR.B3RN%s
  | =👁️ 👁️= |	%sContact: https://xhamster.com%s
