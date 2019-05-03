@@ -57,7 +57,7 @@ try:
 		if str(idk) in str(r1.text):
 			print("[+] TARGET1 BERHASIL")
 		else:
-			print("[-] TARGET1 GAGAL")
+			print("[-]'\033[1;48mTARGET1 GAGAL\033[1;m'")
 		if str(idk) in str(r2.text):
 			print("[+] TARGET2 BERHASIL")
 		else:
