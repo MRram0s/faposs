@@ -45,7 +45,7 @@ dt5={'method':'CALL','countryCode':'id','phoneNumber':no5,'templateID':'pax_andr
 
 try:
 	print()
-	print("%s[-] RESULT:%s"%(r,w))
+	print("%s[-] RESULT:%s"%(r,w,r))
 	for i in range(jlmh):
 		print("[!] PLEASE WAIT...")
 		idk=("challengeID")
@@ -57,23 +57,23 @@ try:
 		if str(idk) in str(r1.text):
 			print("[+] TARGET1 BERHASIL")
 		else:
-			print("[-] TARGET1 GAGAL"(r))
+			print("[-] TARGET1 GAGAL")
 		if str(idk) in str(r2.text):
 			print("[+] TARGET2 BERHASIL")
 		else:
-			print("[-] TARGET2 GAGAL"(r))
+			print("[-] TARGET2 GAGAL")
 		if str(idk) in str(r3.text):
 			print("[+] TARGET3 BERHASIL")
 		else:
-			print("[-] TARGET3 GAGAL"(r))
+			print("[-] TARGET3 GAGAL")
 		if str(idk) in str(r4.text):
 			print("[+] TARGET4 BERHASIL")
 		else:
-			print("[-] TARGET4 GAGAL"(r))
+			print("[-] TARGET4 GAGAL")
 		if str(idk) in str(r5.text):
 			print("[+] TARGET5 BERHASIL")
 		else:
-			print("[-] TARGET5 GAGAL"(r))
+			print("[-] TARGET5 GAGAL")
 		print("="*30)
 		time.sleep(1)
 except KeyboardInterrupt:
