@@ -57,23 +57,23 @@ try:
 		if str(idk) in str(r1.text):
 			print("[+] TARGET1 BERHASIL")
 		else:
-			print("[-] TARGET1 GAGAL")
+			print("[-] TARGET1 GAGAL"(r))
 		if str(idk) in str(r2.text):
 			print("[+] TARGET2 BERHASIL")
 		else:
-			print("[-] TARGET2 GAGAL")
+			print("[-] TARGET2 GAGAL"(r))
 		if str(idk) in str(r3.text):
 			print("[+] TARGET3 BERHASIL")
 		else:
-			print("[-] TARGET3 GAGAL")
+			print("[-] TARGET3 GAGAL"(r))
 		if str(idk) in str(r4.text):
 			print("[+] TARGET4 BERHASIL")
 		else:
-			print("[-] TARGET4 GAGAL")
+			print("[-] TARGET4 GAGAL"(r))
 		if str(idk) in str(r5.text):
 			print("[+] TARGET5 BERHASIL")
 		else:
-			print("[-] TARGET5 GAGAL")
+			print("[-] TARGET5 GAGAL"(r))
 		print("="*30)
 		time.sleep(1)
 except KeyboardInterrupt:
