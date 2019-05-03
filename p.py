@@ -6,7 +6,18 @@ bodo natang ni..
 """
 
 try:
-	
+	import time
+import sys
+
+
+animation = "|/-\\"
+
+for i in range(100):
+    time.sleep(0.1)
+    sys.stdout.write("\r" + animation[i % len(animation)])
+    sys.stdout.flush()
+    #do something
+print("End!")
 
 os.system('clear')
 c=('\033[1;36m')
@@ -16,20 +27,7 @@ o=('\033[1;31m')
 g=('\033[1;32m')
 w=('\033[1;37m')
 print("""%s
-import os, requests, time
-except ModuleNotFoundError:
-	print("\nSepertinya module requests BELUM Di Install")
-	print("$ pip install requests\n")
-	exit()
-	unitColor = '\033[5;36m\033[5;47m'
-endColor = '\033[0;0m\033[0;0m'
-count = 45
-for i in range(count):
-    incre = int(50.0 / count * i)
-    sys.stdout.write('\r' + '|%s%s%s%s| %d%%' % (unitColor, '\033[7m' + ' '*incre + ' \033[27m', endColor, ' '*(50-incre), 2*incre)) if i != count — 1 else sys.stdout.write('\r' + '|%s%s%s| %d%%' % (unitColor, '\033[7m' + ' '*20 + 'COMPLETE!' + ' '*21 + ' \033[27m’, endColor, 100))
-    sys.stdout.flush()
-    sleep(0.1)
-sys.stdout.write('\n')
+
 
 		     ⚔️  MR.B3RN MULTI-SPAM CALL ⚔️%s
  ,_     _‚
