@@ -20,7 +20,7 @@ g=('\033[1;32m')
 w=('\033[1;37m')
 print("""%s
 
-		         ⚔️MR.B3RN MULTI-SPAM CALL⚔️%s
+		       ⚔️ MR.B3RN MULTI-SPAM CALL ⚔️%s
  ,_     _‚
  |\\\___//|	%sAuthor: MR.B3RN%s
  | =👁️ 👁️= |	%sContact: https://xhamster.com%s
@@ -47,7 +47,7 @@ dt5={'method':'CALL','countryCode':'my','phoneNumber':no5,'templateID':'pax_andr
 
 try:
 	print()
-	print("%s[-] RESULT:%s"%(r))
+	print("%s[-] RESULT:"%(r))
 	for i in range(jlmh):
 		print("%s⏳ PLEASE WAIT..."%(w))
 		print("%s📲 CALLING..."%(w))
