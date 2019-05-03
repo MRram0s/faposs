@@ -14,11 +14,12 @@ except ModuleNotFoundError:
 
 os.system('clear')
 c=('\033[1;36m')
-o=('\033[1;43m')
-r=('\033[1;31m')
+r=('\033[1;33m')
+o=('\033[1;31m')
 g=('\033[1;32m')
 w=('\033[1;37m')
 print("""%s
+
 		         Mr.B3RN MULTI-SPAM CALL%s
  ,_     _‚
  |\\\___//|	%sAuthor: Mr.B3RN%s
