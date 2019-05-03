@@ -21,9 +21,9 @@ w=('\033[1;37m')
 print("""%s
 
 		         Mr.B3RN MULTI-SPAM CALL%s
- ,_     _‚
+ ,_      _‚
  |\\\___//|	%sAuthor: Mr.B3RN%s
- |=6   6=|	%sContact: https://xhamster.com%s
+ |=👁️ 👁️=|	  %sContactContact: https://xhamster.com%s
  \=._Y_.=/	%sGithub: https://github.com/MRram0s%s
   )  `  (    ,	%sTEAM: TOK MUNG SQUARE%s
  /       \  ((
@@ -57,25 +57,25 @@ try:
 		r4 = requests.post('https://api.grab.com/grabid/v1/phone/otp',data=dt4)
 		r5 = requests.post('https://api.grab.com/grabid/v1/phone/otp',data=dt5)
 		if str(idk) in str(r1.text):
-			print("%s[+] TARGET1 BERHASIL"%(g))
+			print("%s[+] TARGET1   ✔️"%(g))
 		else:
-			print("%s[-] TARGET1 GAGAL"%(o))
+			print("%s[-] TARGET1   ❌"%(o))
 		if str(idk) in str(r2.text):
-			print("%s[+] TARGET2 BERHASIL"%(g))
+			print("%s[+] TARGET2   ✔️"%(g))
 		else:
-			print("%s[-] TARGET2 GAGAL"%(o))
+			print("%s[-] TARGET2   ❌"%(o))
 		if str(idk) in str(r3.text):
-			print("%s[+] TARGET3 BERHASIL"%(g))
+			print("%s[+] TARGET3   ✔️"%(g))
 		else:
-			print("%s[-] TARGET3 GAGAL"%(o))
+			print("%s[-] TARGET3   ❌"%(o))
 		if str(idk) in str(r4.text):
-			print("%s[+] TARGET4 BERHASIL"%(g))
+			print("%s[+] TARGET4   ✔️"%(g))
 		else:
-			print("%s[-] TARGET4 GAGAL"%(o))
+			print("%s[-] TARGET4   ❌"%(o))
 		if str(idk) in str(r5.text):
-			print("%s[+] TARGET5 ✔️"%(g))
+			print("%s[+] TARGET5   ✔️"%(g))
 		else:
-			print("%s[-] TARGET5 ❌"%(o))
+			print("%s[-] TARGET5   ❌"%(o))
 		print("="*30)
 		time.sleep(1)
 except KeyboardInterrupt:
