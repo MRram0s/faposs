@@ -14,11 +14,12 @@ except ModuleNotFoundError:
 
 os.system('clear')
 c=('\033[1;36m')
+o=('\033[1;43m')
 r=('\033[1;31m')
 g=('\033[1;32m')
 w=('\033[1;37m')
 print("""%s
-		         Mr.B3RN SPAM CALL%s
+		         Mr.B3RN MULTI-SPAM CALL%s
  ,_     _‚
  |\\\___//|	%sAuthor: Mr.B3RN%s
  |=6   6=|	%sContact: https://xhamster.com%s
@@ -45,7 +46,7 @@ dt5={'method':'CALL','countryCode':'id','phoneNumber':no5,'templateID':'pax_andr
 
 try:
 	print()
-	print("%s[-] RESULT:%s"%(r,g))
+	print("%s[-] RESULT:%s"%(r,w))
 	for i in range(jlmh):
 		print("[!] PLEASE WAIT...")
 		idk=("challengeID")
