@@ -34,8 +34,8 @@ print("""%s
 <NOTE> Kalu ERROR @ BUG dan lain-lain, silalah hubungi bapak saya.."""%(c,r,g,r,g,r,g,r,g,r,w,r))
 print("%s[*] Klik ENTER untuk step seterusnya%s"%(g,g))
 no1 = input("[?] NO TARGET 1 => %s"%(w))
-no2 = input("%s[?] NO TARGET 2 => %s"%(g,o))
-no3 = input("%s[?] NO TARGET 3 => %s"%(g,o))
+no2 = input("%s[?] NO TARGET 2 => %s"%(g,w))
+no3 = input("%s[?] NO TARGET 3 => %s"%(g,w))
 no4 = input("%s[?] NO TARGET 4 => %s"%(g,w))
 no5 = input("%s[?] NO TARGET 5 => %s"%(g,w))
 jlmh=int(input("%s[?] JUMLAH SPAM => %s"%(g,w)))
@@ -59,7 +59,7 @@ try:
 		if str(idk) in str(r1.text):
 			print("[+] TARGET1 BERHASIL")
 		else:
-			print("[-]TARGET1 GAGAL")
+			print("[-]TARGET1%GAGAL"%(o))
 		if str(idk) in str(r2.text):
 			print("[+] TARGET2 BERHASIL")
 		else:
