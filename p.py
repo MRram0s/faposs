@@ -6,7 +6,11 @@ bodo natang ni..
 """
 
 try:
-	
+	import os, requests, time
+except ModuleNotFoundError:
+	print("\nSepertinya module requests BELUM Di Install")
+	print("$ pip install requests\n")
+	exit()
 
 os.system('clear')
 c=('\033[1;36m')
