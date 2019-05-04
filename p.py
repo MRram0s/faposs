@@ -55,6 +55,8 @@ try:
 		print("%s⏳  PLEASE WAIT..."%(w))
 		time.sleep(1)
 		print("%s📲  CALLING..."%(w))
+		time.sleep(1)
+		print("%s👌  DONE!"%(w))
 		idk=("challengeID")
 		r1 = requests.post('https://api.grab.com/grabid/v1/phone/otp',data=dt1)
 		r2 = requests.post('https://api.grab.com/grabid/v1/phone/otp',data=dt2)
