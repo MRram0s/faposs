@@ -90,7 +90,7 @@ try:
 		if str(idk) in str(r5.text):
 			print("%s[+] TARGET5   ✔️"%(g))
 		else:
-			print("%s[-] TARGET5   ❌"%(o,g))
+			print("%s[-] TARGET5   ❌%s"%(o,g))
 		print("="*30)
 		time.sleep(1)
 except KeyboardInterrupt:
