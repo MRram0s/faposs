@@ -91,7 +91,7 @@ try:
 			print("%s[+] TARGET5   ✔️"%(g))
 		else:
 			print("%s[-] TARGET5   ❌"%(o))
-		print("%s="*30%(g))
+		print("%s="*30)%(g)
 		time.sleep(1)
 except KeyboardInterrupt:
 	print("%sterima kasih bossku..."%(c))
