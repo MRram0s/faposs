@@ -29,10 +29,10 @@ print("""%s
           |____/____/|_|  \_\_| \_|___/ .__/ \__,_|_| |_| |_|
                                       | |                    
                                       |_|                    
-		     ⚔️  MR.B3RN MULTI-SPAM CALL ⚔️%s
+		       ⚔️  B3RN MULTI-SPAM CALL ⚔️%s
  ,_     _‚
- |\\\___//|	%sAuthor: MR.B3RN%s
- | =👁️ 👁️= |	%sContact: https://xhamster.com%s
+ |\\\___//|	%sAuthor: B3RN%s
+ | =👁️ 👁️= |	%sContact: https://www.facebook.com/nabilb3rn%s
  \=._Y_.=/	%sGithub: https://github.com/MRram0s%s
   )  `  (    ,	%sTEAM: TOK MUNG SQUARE%s
  /       \  ((
