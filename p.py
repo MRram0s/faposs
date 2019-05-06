@@ -41,8 +41,8 @@ print("""%s
 \| |._.| |/-’
  '"'   '"'
 """%(c,r,g,r,g,r,g,r,g,r,w,r))
-print("%s<NOTE> Kalu ERROR @ BUG dan lain-lain, silalah hubungi bapak saya.."%(o))
-print("%s[*] Klik ENTER untuk step seterusnya%s"%(g,g))
+print("%s<NOTE> Jika ERROR dan lain-lain,silalah hubungi bapak saya.."%(o))
+print("%s[*] Masukkan nombor target dan Klik ENTER untuk step seterusnya%s"%(g,g))
 no1 = input("[?] NO.TARGET 1 => %s"%(w))
 no2 = input("%s[?] NO.TARGET 2 => %s"%(g,w))
 no3 = input("%s[?] NO.TARGET 3 => %s"%(g,w))
